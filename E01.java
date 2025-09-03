@@ -1,0 +1,28 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class E01
+{
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    
+	    System.out.print("digite o numero animal:");
+	    int numero1 = input.nextInt();
+	    System.out.print("digite o numero animal:");
+	    int numero2 = input.nextInt();
+	    int soma = numero1 + numero2;
+	    System.out.println("soma e:" + soma);
+	    
+	    
+	    
+	    
+	   
+		
+	}
+}
