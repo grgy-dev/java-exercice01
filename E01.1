@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+	    
+	    System.out.print("Digite a sua altura: ");
+        double altura = input.nextDouble();
+
+        System.out.print("Digite a sua idade: ");
+        int idade = input.nextInt();
+        input.nextLine(); 
+
+        System.out.print("Informe seu nome: ");
+        String nomePessoa = input.nextLine();
+
+        System.out.println("Nome: " + nomePessoa + " | Idade: " + idade + " | Altura: " + altura);
+        
+    }
+}
